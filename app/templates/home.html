@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1>Hello {{ name }}</h1>
+  <form action="add">
+     Enter 1st number: <input type="number" name="num1">
+     Enter 2nd number: <input type="number" name="num2">
+     <button type="submit">Submit</button>
+  </form>
 {% endblock %}
